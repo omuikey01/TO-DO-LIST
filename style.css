@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin : 0;
+}
+body{
+	width: 100vw;
+/*	height: 100vh;*/
+	background-color: #e311ce;
+}
+main{
+	background-color: #E93914;
+	width : 400px;
+	margin : auto;
+	margin-top : 50px;
+}
+main h2{
+	text-align: center;
+	color : #fff;
+	margin : 30px 0;
+}
+#addNewTask{
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	color : #000;
+	padding : 10px 20px;
+	border : 2px solid #000;
+}
+#addBtn{
+	color : Blue;
+	cursor : pointer;
+}
+#ShowTask{
+	background-color: #fff;
+	padding : 20px;
+	margin : 10px 0;
+}
+.ShowResult{
+	display: flex;
+	align-content: center;
+	padding : 10px 0;
+}
+img{
+	width : 20px;
+	height : 20px;
+	cursor : pointer;
+}
+.ShowResult input{
+	margin : 0 10px;
+	cursor: pointer;
+}
+#clr{
+	margin-top : 10px;
+	margin-left : 80%;
+	cursor: pointer;
+}
+#b1, #b2, #b3, #b4, #btna1, #btna2{
+	border-bottom: 1px solid #000;
+}
